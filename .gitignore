@@ -1,0 +1,10 @@
+.netlify
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+node_modules/
+.cursor/
+!.cursor-plugin/

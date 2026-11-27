@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "loyal-spark": {
+      "url": "https://api.loyalspark.online/loyalty-mcp",
+      "headers": {
+        "x-api-key": "${LSK_KEY}"
+      }
+    },
+    "loyal-spark-recipient": {
+      "url": "https://api.loyalspark.online/recipient-loyalty-mcp",
+      "headers": {
+        "x-api-key": "${RWK_KEY}"
+      }
+    }
+  }
+}

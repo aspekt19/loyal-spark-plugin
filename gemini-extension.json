@@ -1,0 +1,33 @@
+{
+  "name": "loyal-spark",
+  "version": "1.0.0",
+  "description": "Onchain loyalty on Base for merchants and AI agents. Wires Gemini CLI to Loyal Spark merchant (lsk_) and holder (rwk_) Streamable HTTP MCP servers.",
+  "mcpServers": {
+    "loyal-spark": {
+      "httpUrl": "https://api.loyalspark.online/loyalty-mcp",
+      "headers": {
+        "x-api-key": "$LSK_KEY"
+      }
+    },
+    "loyal-spark-recipient": {
+      "httpUrl": "https://api.loyalspark.online/recipient-loyalty-mcp",
+      "headers": {
+        "x-api-key": "$RWK_KEY"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "Merchant API key",
+      "description": "Optional Loyal Spark merchant key (lsk_...). Leave blank for keyless initialize/tools/list and get_platform_info.",
+      "envVar": "LSK_KEY",
+      "sensitive": true
+    },
+    {
+      "name": "Holder API key",
+      "description": "Optional Loyal Spark holder key (rwk_...). Free via SIWE. Leave blank if you only use the merchant server.",
+      "envVar": "RWK_KEY",
+      "sensitive": true
+    }
+  ]
+}
