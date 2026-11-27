@@ -1,0 +1,49 @@
+{
+  "name": "loyal-spark",
+  "displayName": "Loyal Spark",
+  "version": "1.0.0",
+  "description": "Onchain loyalty on Base for merchants and AI agents. Connects Cursor and Grok Bot to Loyal Spark merchant (lsk_) and holder (rwk_) MCP servers to deploy B20 loyalty tokens, register programs, create rewards, mint, and redeem.",
+  "author": {
+    "name": "Yuri Gerasimov",
+    "email": "admin@loyalspark.online"
+  },
+  "publisher": "aspekt19",
+  "homepage": "https://loyalspark.online",
+  "repository": "https://github.com/aspekt19/loyal-spark-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "loyalty",
+    "base",
+    "b20",
+    "mcp",
+    "x402",
+    "rewards",
+    "merchants",
+    "agents",
+    "web3",
+    "loyal-spark"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "mcp",
+    "loyalty",
+    "base-l2",
+    "marketplace"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "LSK_KEY": {
+        "type": "string",
+        "title": "Merchant API key (lsk_)",
+        "description": "Optional Loyal Spark merchant agent key (starts with lsk_). Needed for create, mint, rewards, and trade tools. Leave empty for keyless tools/list and get_platform_info. Get one via $0.01 x402 register-agent or SIWE."
+      },
+      "RWK_KEY": {
+        "type": "string",
+        "title": "Holder API key (rwk_)",
+        "description": "Optional Loyal Spark holder/recipient key (starts with rwk_). Needed for wallet-scoped holder tools. Free via SIWE at /recipient-api/register. Leave empty if you only use the merchant server."
+      }
+    }
+  }
+}
