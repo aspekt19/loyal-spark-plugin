@@ -1,6 +1,6 @@
 # Marketplace submission fields
 
-Copy these into https://cursor.com/marketplace/publish and https://x.ai/bot/marketplace/submit-a-plugin. Replace placeholders marked `TODO` before submit. Founder: Yuri Gerasimov (GitHub `aspekt19`).
+Copy these into https://cursor.com/marketplace/publish and https://x.ai/bot/marketplace/submit-a-plugin. Founder: Yuri Gerasimov (GitHub `aspekt19`, X `@gerassyk`). Project X: `@Loyal_Spark`.
 
 ## Shared identity
 
@@ -8,13 +8,15 @@ Copy these into https://cursor.com/marketplace/publish and https://x.ai/bot/mark
 | --- | --- |
 | First name | Yuri |
 | Last name | Gerasimov |
-| Work email | `TODO: founder work email` |
+| Work email | admin@loyalspark.online |
 | Organization name | Loyal Spark |
-| Organization handle | `loyalspark` (or `TODO` if taken) |
+| Organization handle | loyalspark |
 | Website | https://loyalspark.online |
 | GitHub repository | https://github.com/aspekt19/loyal-spark-plugin |
 | Logo URL (1:1 PNG) | https://raw.githubusercontent.com/aspekt19/loyal-spark-plugin/main/assets/logo.png |
-| Support contact | `TODO: support@… or Discord / email` |
+| Support contact | admin@loyalspark.online |
+| Founder X | https://x.com/gerassyk (`@gerassyk`) |
+| Project X | https://x.com/Loyal_Spark (`@Loyal_Spark`) |
 | Privacy | https://loyalspark.online/privacy |
 | Terms | https://loyalspark.online/terms |
 | List on | Grok Bot and Cursor (and Grok when available) |
@@ -90,8 +92,10 @@ Reviewers can verify discovery without a paid key, then optionally issue a Free 
 - [x] Skills with YAML frontmatter
 - [x] Logo at `assets/logo.png`
 - [x] README documents install and config
+- [x] Contact / support email filled: admin@loyalspark.online
 - [ ] Founder tests locally in Cursor and in Grok Bot, then ticks the form checkbox
-- [ ] Founder fills `TODO` email / support / handle
+- [ ] Founder adds GitHub topics (agent token lacked permission):  
+  `gh repo edit aspekt19/loyal-spark-plugin --add-topic gemini-cli-extension --add-topic gemini-extension --add-topic mcp --add-topic cursor-plugin --add-topic loyalty --add-topic base`
 
 ## x.ai form checkbox text
 

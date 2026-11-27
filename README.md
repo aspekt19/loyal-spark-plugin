@@ -80,7 +80,17 @@ Guides: https://loyalspark.online/for-agents · https://loyalspark.online/.well-
 
 ## Gemini CLI
 
-This repo also includes `gemini-extension.json` (Streamable HTTP via `httpUrl` + headers) so Gemini CLI can index the same MCP servers. Suggested GitHub topics for discovery: `gemini-extension`, `gemini-cli-extension`, `mcp`, `cursor-plugin`.
+This repo also includes `gemini-extension.json` (Streamable HTTP via `httpUrl` + headers) so Gemini CLI can index the same MCP servers. Suggested GitHub topics for discovery: `gemini-extension`, `gemini-cli-extension`, `mcp`, `cursor-plugin`, `loyalty`, `base`.
+
+```bash
+gh repo edit aspekt19/loyal-spark-plugin \
+  --add-topic gemini-cli-extension \
+  --add-topic gemini-extension \
+  --add-topic mcp \
+  --add-topic cursor-plugin \
+  --add-topic loyalty \
+  --add-topic base
+```
 
 ```bash
 gemini extensions install https://github.com/aspekt19/loyal-spark-plugin
@@ -106,6 +116,15 @@ python3 -m json.tool .cursor-plugin/plugin.json > /dev/null
 python3 -m json.tool mcp.json > /dev/null
 python3 -m json.tool gemini-extension.json > /dev/null
 ```
+
+## Support
+
+- Email: [admin@loyalspark.online](mailto:admin@loyalspark.online)
+- Founder: Yuri Gerasimov (GitHub [aspekt19](https://github.com/aspekt19), X [@gerassyk](https://x.com/gerassyk))
+- Project X: [@Loyal_Spark](https://x.com/Loyal_Spark)
+- Site: https://loyalspark.online
+- Privacy: https://loyalspark.online/privacy
+- Terms: https://loyalspark.online/terms
 
 ## Links
 

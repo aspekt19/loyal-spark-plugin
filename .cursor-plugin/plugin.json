@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Onchain loyalty on Base for merchants and AI agents. Connects Cursor and Grok Bot to Loyal Spark merchant (lsk_) and holder (rwk_) MCP servers to deploy B20 loyalty tokens, register programs, create rewards, mint, and redeem.",
   "author": {
-    "name": "Yuri Gerasimov"
+    "name": "Yuri Gerasimov",
+    "email": "admin@loyalspark.online"
   },
   "publisher": "aspekt19",
   "homepage": "https://loyalspark.online",
