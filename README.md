@@ -80,17 +80,7 @@ Guides: https://loyalspark.online/for-agents · https://loyalspark.online/.well-
 
 ## Gemini CLI
 
-This repo also includes `gemini-extension.json` (Streamable HTTP via `httpUrl` + headers) so Gemini CLI can index the same MCP servers. Suggested GitHub topics for discovery: `gemini-extension`, `gemini-cli-extension`, `mcp`, `cursor-plugin`, `loyalty`, `base`.
-
-```bash
-gh repo edit aspekt19/loyal-spark-plugin \
-  --add-topic gemini-cli-extension \
-  --add-topic gemini-extension \
-  --add-topic mcp \
-  --add-topic cursor-plugin \
-  --add-topic loyalty \
-  --add-topic base
-```
+This repo includes `gemini-extension.json` (Streamable HTTP via `httpUrl` + headers) and `GEMINI.md` (when to use the merchant vs holder servers). The repository is tagged `gemini-cli-extension` for the official gallery crawler.
 
 ```bash
 gemini extensions install https://github.com/aspekt19/loyal-spark-plugin
@@ -102,6 +92,7 @@ gemini extensions install https://github.com/aspekt19/loyal-spark-plugin
 .cursor-plugin/plugin.json   # Cursor / Grok Bot manifest + variables
 mcp.json                     # Both MCP servers with ${LSK_KEY} / ${RWK_KEY}
 gemini-extension.json        # Gemini CLI extension
+GEMINI.md                    # Gemini CLI context (when to use which server)
 skills/*/SKILL.md            # Agent skills
 assets/logo.png              # Square logo
 SUBMISSION.md                # Marketplace form paste fields

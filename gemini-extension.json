@@ -6,18 +6,21 @@
   "homepage": "https://loyalspark.online",
   "repository": "https://github.com/aspekt19/loyal-spark-plugin",
   "license": "MIT",
+  "contextFileName": "GEMINI.md",
   "mcpServers": {
     "loyal-spark": {
       "httpUrl": "https://api.loyalspark.online/loyalty-mcp",
       "headers": {
         "x-api-key": "$LSK_KEY"
-      }
+      },
+      "timeout": 30000
     },
     "loyal-spark-recipient": {
       "httpUrl": "https://api.loyalspark.online/recipient-loyalty-mcp",
       "headers": {
         "x-api-key": "$RWK_KEY"
-      }
+      },
+      "timeout": 30000
     }
   },
   "settings": [
